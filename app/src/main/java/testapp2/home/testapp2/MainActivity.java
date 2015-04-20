@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity
         setSupportActionBar(mToolbar);
         Log.e("tag", "test");
         Log.e("tag", "test2");
+        Log.e("tag", "test3");
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getSupportFragmentManager().findFragmentById(R.id.fragment_drawer);
